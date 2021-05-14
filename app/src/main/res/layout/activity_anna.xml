@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnnaActivity">
+
+    <include layout="@layout/content_anna" />
+    <TextView
+        android:id="@+id/textView_about_content"
+        android:layout_width="wrap_content"
+        android:layout_height="426dp"
+        android:text="@string/AnnaWiki" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="573dp"
+        app:layout_anchor="@+id/textView_about_content"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/anna_williams" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

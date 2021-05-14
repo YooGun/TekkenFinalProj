@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tekkenwiki">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TekkenWiki">
+        <activity
+            android:name=".HeihachiActivity"
+            android:label="@string/title_activity_heihachi"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.HeihachiActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LawActivity"
+            android:label="@string/title_activity_law"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.LawActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".LarsActivity"
+            android:label="@string/title_activity_lars"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.LarsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LuckyActivity"
+            android:label="@string/title_activity_lucky"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.LuckyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".KunimitsuActivity"
+            android:label="@string/title_activity_kunimitsu"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.KunimitsuActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".KadzumiActivity"
+            android:label="@string/title_activity_kadzumi"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.KadzumiActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".YoshimitsuActivity"
+            android:label="@string/title_activity_yoshimitsu"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.YoshimitsuActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".ZafinaActivity"
+            android:label="@string/title_activity_zafina"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.ZafinaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".JinActivity"
+            android:label="@string/title_activity_jin"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.JinActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BryanActivity"
+            android:label="@string/title_activity_bryan"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.BryanActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AsukaActivity"
+            android:label="@string/title_activity_asuka"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.AsukaaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ArmorActivity"
+            android:label="@string/title_activity_armor"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.ArmorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AlisaActivity"
+            android:label="@string/title_activity_alisa"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"  >
+            <intent-filter>
+                <action android:name="android.intent.action.AlisaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AnnaActivity"
+            android:label="@string/title_activity_anna"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.AnnaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".AkumaActivity"
+            android:label="@string/title_activity_akuma"
+            android:theme="@style/Theme.TekkenWiki.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.AkumaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
